@@ -67,7 +67,7 @@ def extract_function_metadata(func: Callable) -> dict:
 def single_turn_agent(messages: List[dict]) -> str:
 
     system_prompt = {
-        "role": "user",
+        "role": "system",
         "content": SYSTEM_PROMPT
     }
     assistant_prompt = {

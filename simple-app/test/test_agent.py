@@ -39,7 +39,7 @@ def send_messages(messages, user_input, session):
 def main():
     print("Interactive Agent Test. Type 'quit' to exit.")
     messages = [
-        {"role": "system", "content": "You are having a friendly conversation. You can use tools to help answer questions only when needed. Only call a tool when it is relevant to answering the question."},
+        # {"role": "system", "content": "You are having a friendly conversation. You can use tools to help answer questions only when needed. Only call a tool when it is relevant to answering the question."},
     ]
     session = {
         'guid': str(uuid.uuid4()),
